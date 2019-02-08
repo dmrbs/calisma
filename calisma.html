@@ -4,10 +4,26 @@
 
 <head>
     <style>
-        a {
+        .anablok {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
 
-            font-weight: rgb(206, 112, 112);
-            color: rgb(54, 50, 50);
+        }
+
+        
+
+
+
+        .menu {
+            background-color: #4285f4;
+        }
+
+        .menu a {
+            text-align: center;
+            font-weight: 800;
+            color: white;
             font-style: oblique;
             font-family: arial;
             text-decoration: none;
@@ -15,22 +31,119 @@
             display: inline-block;
             font-size: 25px;
             padding: 10px;
+            width: 12%;
+        }
+
+        .menu .active {
+            font-weight: 800;
+            color: white;
+            background-color: gray;
+            font-style: oblique;
+            font-family: arial;
+            text-decoration: none;
+            vertical-align: baseline;
+            display: inline-block;
+            font-size: 25px;
+            padding: 10px;
+            width: 12%;
+        }
+
+        .icerik {
+            width: 100%;
+            display: flex;
+            padding-bottom: 15px;
+            background-color: blanchedalmond;
+        }
+
+        .sol-kısım {
+            width: 30%;
+            display: inline;
+        }
+
+        .sag-kısım {
+            width: 70%;
+            display: inline;
+        }
+
+        .footer a {
+            font-weight: 800;
+            color: white;
+            background-color: gray;
+            text-decoration: underline;
+            font-size: 15px;
+
+        }
+        .footer {
+            background-color: burlywood;
+            height: 50px;
         }
     </style>
 </head>
 
-<body style="background-color:pink">
-    <a href="index.html">Ana sayfa</a>
-    <a href="calisma.html">Çalışma1</a>
-    <a href="calisma2.html">Çalışma2</a>
-    <a href="calisma3.html">Çalışma3</a>
-    <a href="calisma4.html">Çalışma4</a>
-    <a href="calisma5.html">Çalışma5</a>
-    <a href="calisma6.html">Çalışma6</a><br>
-    <h2 title="Çalışılmaya başlandı">Bugün Çarşamba</h2>
-    <p title="Bişeyler Öğreniliyor">
-        Zaman geçtikçe daha da geliştirilir.
-    </p>
+<body style="background-color:gainsboro">
+    <div class="anablok">
+        <div class="menu">
+            <a href="index.html">Ana sayfa</a>
+            <a class="active" href="calisma.html">YYÜ ÇALIŞMA</a>
+            <a href="calisma2.html">Çalışma2</a>
+            <a href="calisma3.html">Çalışma3</a>
+            <a href="calisma4.html">Çalışma4</a>
+            <a href="calisma5.html">Çalışma5</a>
+            <a href="calisma6.html">Çalışma6</a>
+        </div>
+        <div class="icerik">
+            <div class=" sol-kısım">
+
+                <h1 style="text-align:center;"> Yüzüncü Yıl Üniversitesi </h1>
+                <img style="display: block;margin-left: auto;margin-right: auto;width: auto;" src="img/yyu-logo.png">
+
+            </div>
+            <div class="sag-kısım">
+
+                <h2> What is Lorem Ipsum?</h2>
+                <p>
+                    Lorem Ipsum is <span style="color:red">yyü</span> dummy text of the printing and
+                    typesetting
+                    industry. Lorem
+                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    printer
+                    took a galley
+                    of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries,
+                    but
+                    also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                    the
+                    1960s
+                    with the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software
+                    like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+            </div>
+
+
+        </div>
+
+        <div class="footer" >
+
+            <div style="display:block;margin-left:auto;margin-right:auto;width:20%;">
+            <a style="color: blue" href="https://www.yyu.edu.tr/">Yyü Sayfası</a>
+            <a style="color:blue" href="https://www.yyu.edu.tr/Iletisim.php">Yyü İletişim</a>
+        </div>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
 </body>
 
 </html>
