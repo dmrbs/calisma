@@ -4,10 +4,26 @@
 
 <head>
     <style>
-        a {
+        .anablok {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
 
-            font-weight: rgb(206, 112, 112);
-            color: rgb(54, 50, 50);
+        }
+
+
+
+
+
+        .menu {
+            background-color: #4285f4;
+        }
+
+        .menu a {
+            text-align: center;
+            font-weight: 800;
+            color: white;
             font-style: oblique;
             font-family: arial;
             text-decoration: none;
@@ -15,23 +31,121 @@
             display: inline-block;
             font-size: 25px;
             padding: 10px;
+            width: 12%;
+        }
+
+        .menu .active {
+            font-weight: 800;
+            color: white;
+            background-color: gray;
+            font-style: oblique;
+            font-family: arial;
+            text-decoration: none;
+            vertical-align: baseline;
+            display: inline-block;
+            font-size: 25px;
+            padding: 10px;
+            width: 12%;
+        }
+
+        .icerik {
+            width: 100%;
+            display: flex;
+            padding-bottom: 15px;
+            background-color: blanchedalmond;
+        }
+
+        .sol-kısım {
+            width: 30%;
+            display: inline;
+        }
+
+        .sag-kısım {
+            width: 80%;
+            display: inline;
+        }
+
+        .footer a {
+            font-weight: 800;
+            color: white;
+            background-color: gray;
+            text-decoration: underline;
+            font-size: 15px;
+
+        }
+
+        .footer {
+            background-color: burlywood;
+            height: 50px;
         }
     </style>
 </head>
 
-<body style="background-color:pink">
-    <a href="index.html">Ana sayfa</a>
-    <a href="calisma.html">Çalışma1</a>
-    <a href="calisma2.html">Çalışma2</a>
-    <a href="calisma3.html">Çalışma3</a>
-    <a href="calisma4.html">Çalışma4</a>
-    <a href="calisma5.html">Çalışma5</a>
-    <a href="calisma6.html">Çalışma6</a><br>
-    <h2>Fatih Terim</h2>
-    <p>Fatih Terim'in babası bugün vefat etti.</p>
-    <a href="https://www.mynet.com/fatih-terim-in-babasi-talat-terim-hayatini-kaybetti-186555-myspor">Bağlantı için
-        tıklayınız.
-    </a>
+</html>
+
+<body style="background-color:gainsboro">
+    <div class="anablok">
+        <div class="menu">
+            <a href="index.html">Ana sayfa</a>
+            <a href="calisma.hmtl">YYÜ ÇALIŞMA</a>
+            <a class="active" href="calisma2.html">KLÜ ÇALIŞMA</a>
+            <a href="calisma3.html">Çalışma3</a>
+            <a href="calisma4.html">Çalışma4</a>
+            <a href="calisma5.html">Çalışma5</a>
+            <a href="calisma6.html">Çalışma6</a>
+        </div>
+        <div class="icerik">
+            <div class=" sol-kısım">
+
+                <h1 style="text-align:center;"> Kırklareli Üniversitesi </h1>
+                <img style="display: block;margin-left: auto;margin-right: auto;width: auto;" src="img/klulogo.jpg">
+
+            </div>
+            <div class="sag-kısım">
+
+                <h2> Kuruluş</h2>
+                <p>
+                    2007 yılında kurulan<span style="color:red"> Kırklareli Üniversitesi</span>; 10 Fakülte, 3 Enstitü,
+                    3 Yüksekokul, 7 Meslek Yüksekokulu ve 14 Uygulama ve
+                    Araştırma Merkezi ile eğitim-öğretim hizmeti veren bir
+                    yükseköğretim kurumudur. Kuruluşundan bugüne gelişimine
+                    hızla devam eden Üniversitemizde; 800 akademik ve 500 idari
+                    personel görev yapmakta olup 30.000 öğrenci eğitim-öğretim
+                    görmektedir.
+                </p>
+                <h2>Barınma</h2>
+                <p>
+                    Kırklareli Üniversitesi öğrencileri, barınma imkanları açısından
+                    ülkemizin en şanslı öğrencileridir. Barınma çoğunluğu
+                    yerleşkelerimize yakın mesafede bulunan Yükseköğretim Kredi ve
+                    Yurtlar Kurumu yurtları ile şehir merkezinde bulunan çok sayıda
+                    özel yurt ve pansiyon ile sağlanmaktadır. Ayrıca Kırklareli halkı da
+                    ev kiralama hususunda öğrencilere kolaylık sağlamaktadır.
+                </p>
+            </div>
+
+
+        </div>
+
+        <div class="footer">
+
+            <div style="display:block;margin-left:auto;margin-right:auto;width:20%;">
+                <a style="color: blue" href="http://www.klu.edu.tr/">Klü Sayfası</a>
+                <a style="color:blue" href="http://www.klu.edu.tr/Ybilgi_Havuzu/44-iletisim.klu">Klü İletişim</a>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
 </body>
 
 </html>
