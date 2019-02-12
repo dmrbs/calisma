@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<!--Size Attributes-->
+<!--the title attribute-->
 <html>
 
 <head>
     <style>
-        a {
+        .anablok {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+
+        }
 
 
-            color: rgb(54, 50, 50);
+
+
+
+        .menu {
+            background-color: #4285f4;
+        }
+
+        .menu a {
+            text-align: center;
+            font-weight: 800;
+            color: white;
             font-style: oblique;
             font-family: arial;
             text-decoration: none;
@@ -15,21 +31,128 @@
             display: inline-block;
             font-size: 25px;
             padding: 10px;
+            width: 12%;
+        }
+
+        .menu .active {
+            font-weight: 800;
+            color: white;
+            background-color: gray;
+            font-style: oblique;
+            font-family: arial;
+            text-decoration: none;
+            vertical-align: baseline;
+            display: inline-block;
+            font-size: 25px;
+            padding: 10px;
+            width: 12%;
+        }
+
+        .icerik {
+            width: 100%;
+            display: flex;
+            padding-bottom: 15px;
+
+
+        }
+
+        .sol-kısım {
+            width: 30%;
+            display: inline;
+        }
+
+        .sag-kısım {
+            width: 70%;
+            display: inline;
+        }
+
+        .footer a {
+            font-weight: 800;
+            color: white;
+            background-color: gray;
+            text-decoration: underline;
+            font-size: 15px;
+
+        }
+
+        .footer {
+            background-color: burlywood;
+            height: 50px;
         }
     </style>
+    <link rel="stylesheet" href="register.css">
 </head>
 
-<body style="background-color:pink">
-    <a href="index.html">Ana sayfa</a>
-    <a href="calisma.html">Çalışma1</a>
-    <a href="calisma2.html">Çalışma2</a>
-    <a href="calisma3.html">Çalışma3</a>
-    <a href="calisma4.html">Çalışma4</a>
-    <a href="calisma5.html">Çalışma5</a>
-    <a href="calisma6.html">Çalışma6</a><br>
-    <p><br><strong>Görüntünün genişliği ve yüksekliğinin bilgisi</strong></br>
-        <img src="manzara.jpg.jpeg" width="500" height="322">
-    </p>
+</html>
+
+<body style="background-color:gainsboro">
+    <div class="anablok">
+        <div class="menu">
+            <a href="index.html">Ana sayfa</a>
+            <a class="active" href="calisma.html">YYÜ ÇALIŞMA</a>
+            <a href="calisma2.html">KLÜ ÇALIŞMA</a>
+            <a href="calisma3.html">Çalışma3</a>
+            <a href="calisma4.html">Çalışma4</a>
+            <a href="calisma5.html">Çalışma5</a>
+            <a href="calisma6.html">Çalışma6</a>
+        </div>
+        <div class="icerik">
+            <div lass="ana">
+                <div class="main">
+                    <div class="firstpart">
+                        <div class="h1">Register</div>
+                        <div class="h3">Create your account.It's free and only takes a minute.</div>
+                        <div class="center">
+                            <form action="/action_page.php">
+                                <br>
+                                <div class="leftsection">
+                                    <div class="infosize">
+                                        <input required type="text" name="First Name" placeholder="First Name">
+                                    </div>
+                                </div>
+                                <div class="rightsection">
+                                    <div class="infosize">
+                                        <input required type="text" name="Last Name" placeholder="Last Name">
+                                    </div>
+                                </div>
+                                <div class="inputs">
+                                    <input required type="text" name="Email" placeholder="Email">
+                                </div>
+                                <div class="inputs">
+                                    <input required type="text" name="Password" placeholder="Password">
+                                </div>
+                                <div class="inputs">
+                                    <input required type="text" name="ConfirmPassword" placeholder="Confirm Password">
+                                </div>
+                                <div class="private">
+                                    <input required type="checkbox"> I accept the Terms of Use & Privacy Policy.
+                                </div>
+                                <div class="private">
+                                    <input style=background:blue; type="submit" placeholder="Register Now">
+
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
 </body>
 
 </html>
