@@ -1,0 +1,176 @@
+.header {
+    width: 100%;
+    display: inline-block;
+    height: 75px;
+    background-color: aqua;
+}
+
+.yorum1 {
+    font-weight: 80px color grey;
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 23px;
+
+}
+
+.nav {
+    width: 10%;
+    display: inline-block;
+    height: 200px;
+    background-color: rgb(255, 166, 0);
+}
+
+.yorum2 {
+    font-weight: 80px color rgb(190, 64, 64);
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.icerik {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%px;
+
+}
+
+.leftside {
+    width: 25%;
+    display: inline-block;
+    float: left;
+    background-color: coral;
+    height: 250px;
+    margin-top: 15px;
+
+}
+
+.leftside1 {
+    width: 25%;
+    display: inline-block;
+    float: left;
+
+}
+
+.rightside {
+    display: inline-block;
+    width: 75%;
+    float: right;
+    margin-top: 15px;
+    background-color: blue;
+}
+
+.rightside1 {
+    display: inline-block;
+    width: 75%;
+    float: right;
+    margin-top: 40px;
+
+}
+
+.word {
+    font-weight: 80px color rgb(190, 64, 64);
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.section {
+    width: 100%;
+    display: inline-block;
+background-color: crimson;
+
+
+}
+
+.sectionword {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.article {
+    width: 100%;
+    display: inline-block;
+    height: 350px;
+    background-color: rgb(113, 95, 180);
+    margin-bottom: 10px;
+}
+
+.articleword {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+.aside {
+
+    height: 162px;
+    background-color: rgb(50, 153, 67);
+
+}
+
+
+.asideword {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    padding: 70px;
+}
+
+.section2 {
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(75, 139, 46);
+
+}
+.rightside-content {
+    width: 90%;
+    margin: auto;
+}
+.aside1 {
+    height: 100px;
+    background-color: rgb(180, 48, 140);
+    margin-right: 110px;
+}
+.asideword1 {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    padding: 45px;
+    margin: auto;
+
+
+}
+.leftside2 {
+    width: 32%;
+    display: inline-block;
+    float: left;
+    margin-left: auto;
+
+}
+.rightside2 {
+    display: inline-block;
+    width: 68%;
+    float: right;
+    margin-top: 40px;
+    margin-right: auto;
+
+}
+.footer {
+    background-color: rgb(156, 39, 39);
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+   
+}
