@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--The alt Attribute-->
-<html>Görüntü bilgisi
+<html>
 
 <head>
     <style>
@@ -16,19 +16,52 @@
             font-size: 25px;
             padding: 10px;
         }
+
+        .anablok {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+
+        }
+
+        .menu {
+            background-color: #4285f4;
+        }
+        .menu .active {
+            font-weight: 800;
+            color: white;
+            background-color: gray;
+            font-style: oblique;
+            font-family: arial;
+            text-decoration: none;
+            vertical-align: baseline;
+            display: inline-block;
+            font-size: 25px;
+            padding: 10px;
+            width: 12%;
+        }
+
     </style>
 </head>
 
 <body style="background-color:pink">
-    <a href="index.html">Ana sayfa</a>
-    <a href="calisma.html">Çalışma1</a>
-    <a href="calisma2.html">Çalışma2</a>
-    <a href="calisma3.html">Çalışma3</a>
-    <a href="calisma4.html">Çalışma4</a>
-    <a href="calisma5.html">Çalışma5</a>
-    <a href="calisma6.html">Çalışma6</a><br>
-    <h2>dipnot</h2>
-    <img src="manzaraa.jpg.jpeg" alt="Kuyunun dibinden bakış açısı" width="500" height="322">
+    <div class="anablok">
+        <div class="menu">
+            <a href="index.html">Ana sayfa</a>
+            <a href="calisma.html">YYÜ ÇALIŞMA</a>
+            <a href="calisma2.html">KLÜ ÇALIŞMA</a>
+            <a href="calisma3.html">Çalışma3</a>
+            <a class="active" href="calisma4.html">Çalışma4</a>
+            <a href="calisma5.html">Çalışma5</a>
+            <a href="calisma6.html">Çalışma6</a><br>
+        </div>
+        <div>
+            <h2>dipnot</h2>
+            <img src="manzaraa.jpg.jpeg" alt="Kuyunun dibinden bakış açısı" width="500" height="322">
+        </div>
+    </div>
+    </div>
 </body>
 
 </html>
